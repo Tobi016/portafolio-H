@@ -1,3 +1,14 @@
 body {
   font-family: "Source Sans Pro";
 }
+
+.site-main.portafolio{
+  padding: 4rem 0;
+}
+
+.site-main.portafolio.button-group button{
+  background: transparent;
+  border: none;
+  font: normal 500 16px/130px;
+  text-transform: uppercase;
+}
