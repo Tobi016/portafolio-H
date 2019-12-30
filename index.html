@@ -7,7 +7,7 @@
     <title>Helheim systems</title>
     <!--Boostrap-->
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
-    <!--Custos css-->
+    <!--Custom css-->
     <link rel="stylesheet" href="./css/style.css" />
     <!--font-->
     <link
@@ -60,67 +60,109 @@
       </nav>
     </header>
     <!--------------------- End Header Area----------------->
+    
 
+    <!---------------------- Main area ------------------->
+    <main class="site-main">
 
-    <!---------------------- Portafolio --------------------------------->
+      <!---------------------- Portafolio --------------------------------->
 
-    <section class="portafolio">
-      <div class="container">
-        <div class="portafolio-title pb-5">
-          <h1 class="text-uppercase title-h1">portafolio</h1>
-        </div>
+      <section class="portafolio">
+        <div class="container">
+          <div class="portafolio-title pb-5">
+            <h1 class="text-uppercase title-h1">portafolio</h1>
+          </div>
 
-        <div class="button-group">
-          <button type="button" class="active">Todos</button>
-          <button type="button">Popular</button>
-          <button type="button">Recientes</button>
-          <button type="button">Próximos</button>
-        </div>
+          <div class="button-group">
+            <button type="button" class="active">Todos</button>
+            <button type="button" data-filter=".Popular">Popular</button>
+            <button type="button" data-filter=".recientes">Recientes</button>
+            <button type="button" data-filter=".Próximos">Próximos</button>
+          </div>
 
-        <div class="row grid">
-          <div class="col-lg-4 col-md-6 col-sm-12 element-item recientes">
-            <div class="our-project">
-              <div class="img">
-                <img src="./img/portfolio/p1.jpg" alt="p1">
+          <div class="row grid">
+            <div class="col-lg-4 col-md-6 col-sm-12 element-item recientes">
+              <div class="our-project">
+                <div class="img">
+                  <img src="./img/anatolii-nesterov-W4VYX_stx0I-unsplash.jpg" alt="p1">
+                </div>
+                <div class="title py-4">
+                  <h4 class="text-uppercase">foto 1</h4>
+                  <span class="text-secondary">Reciente</span>
+                </div>
               </div>
-              <div class="title py-4">
-                <h4 class="text-uppercase">foto 1</h4>
-                <span class="text-secondary">Reciente</span>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 element-item Popular">
+              <div class="our-project">
+                <div class="img">
+                  <img src="./img/clark-van-der-beken-0cNMwg7Wvjk-unsplash.jpg" alt="p2">
+                </div>
+                <div class="title py-4">
+                  <h4 class="text-uppercase">foto 2</h4>
+                  <span class="text-secondary">Popular</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 element-item Próximos">
+              <div class="our-project">
+                <div class="img">
+                  <img src="./img/clark-van-der-beken-1k671chUm0Y-unsplash.jpg" alt="p3">
+                </div>
+                <div class="title py-4">
+                  <h4 class="text-uppercase">foto 3</h4>
+                  <span class="text-secondary">Próximos</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 element-item Próximos">
+              <div class="our-project">
+                <div class="img">
+                  <img src="./img/clu-soh-EuZOP9pbYDE-unsplash.jpg" alt="p4">
+                </div>
+                <div class="title py-4">
+                  <h4 class="text-uppercase">foto 4</h4>
+                  <span class="text-secondary">Próximos</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 element-item recientes">
+              <div class="our-project">
+                <div class="img">
+                  <img src="./img/cody-chan-drFFqflCJOk-unsplash.jpg" alt="p5">
+                </div>
+                <div class="title py-4">
+                  <h4 class="text-uppercase">foto 5</h4>
+                  <span class="text-secondary">Recientes</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 element-item Popular">
+              <div class="our-project">
+                <div class="img">
+                  <img src="./img/denys-nevozhai-4BQziinEenQ-unsplash.jpg" alt="p6">
+                </div>
+                <div class="title py-4">
+                  <h4 class="text-uppercase">foto 6</h4>
+                  <span class="text-secondary">Popular</span>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 element-item Popular">
-            <div class="our-project">
-              <div class="img">
-                <img src="./img/portfolio/p2.jpg" alt="p2">
-              </div>
-              <div class="title py-4">
-                <h4 class="text-uppercase">foto 2</h4>
-                <span class="text-secondary">Popular</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 element-item Próximos">
-            <div class="our-project">
-              <div class="img">
-                <img src="./img/portfolio/p3.jpg" alt="p3">
-              </div>
-              <div class="title py-4">
-                <h4 class="text-uppercase">foto 3</h4>
-                <span class="text-secondary">Próximos</span>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!---------------------- End Portafolio --------------------------------->
+      <!---------------------- End Portafolio --------------------------------->
 
-
+    </main>
+    <!------------------------End main area ------------------->
+    
     <!--jquery-->
     <script src="./js/jquery.js"></script>
     <!--Boostrap js-->
     <script src="./js/bootstrap.bundle.min.js"></script>
+    <!--Isotope js-->
+    <script src="./js/isotope.pkgd.min.js"></script>
+    <!--Custom js-->
+    <script src="js/main.js"></script>
   </body>
 </html>
