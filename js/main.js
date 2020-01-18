@@ -16,4 +16,6 @@ $(document).ready(function () {
 
         return false;
     })
+    
+    $('.portafolio .button-group #btn1').trigger('click');
 });
