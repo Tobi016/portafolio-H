@@ -18,4 +18,14 @@ $(document).ready(function () {
     })
     
     $('.portafolio .button-group #btn1').trigger('click');
+
+    $('.portafolio .grid .test-popup-link').magnificPopup({
+        type:'image',
+        gallery:{enabled:true}
+    });
+
+
+
+
+
 });
