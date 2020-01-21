@@ -34,4 +34,11 @@ button:hover
   font: normal 700 25px/12px;
 }
 
+.site-main .portafolio .grid .our-project .img a:hover img{
+  filter: brightness(1.1)drop-shadow(1px 8px 30px #b1afaf);
+}
+
+.title-h1{
+  font:normal bold 39px/ 40px;
+}
 /*=================== End Portafolio ======================*/
